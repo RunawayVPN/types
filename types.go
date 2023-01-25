@@ -8,3 +8,9 @@ type Agent struct {
 	Country   string `json:"country"`
 	ISP       string `json:"isp"`
 }
+
+type RegistrationRequest struct {
+	PublicKey string `json:"public_key"`
+	SecretKey string `json:"secret_key"`
+	JwtToken  string `json:"jwt"`
+}
