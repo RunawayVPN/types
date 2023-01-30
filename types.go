@@ -21,3 +21,8 @@ type RegistrationResponse struct {
 	PublicKey string `json:"public_key"`
 	JwtToken  string `json:"jwt"`
 }
+
+type HubInfo struct {
+	PublicKey string `json:"public_key"`
+	AgentJwt  string `json:"agent_jwt"`
+}
