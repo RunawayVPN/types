@@ -1,6 +1,6 @@
 package types
 
 type AuthToken struct {
-	IP    string
-	Roles []string
+	Endpoint string
+	Roles    []string
 }
