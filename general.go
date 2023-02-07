@@ -9,19 +9,6 @@ type Agent struct {
 	ISP       string `json:"isp"`
 }
 
-type RegistrationRequest struct {
-	PublicKey string `json:"public_key"`
-	SecretKey string `json:"secret_key"`
-	JwtToken  string `json:"jwt"`
-}
-
-type RegistrationResponse struct {
-	Success   bool   `json:"success"`
-	Error     string `json:"error"`
-	PublicKey string `json:"public_key"`
-	JwtToken  string `json:"jwt"`
-}
-
 type HubInfo struct {
 	PublicKey string `json:"public_key"`
 	AgentJwt  string `json:"agent_jwt"`
